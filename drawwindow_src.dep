@@ -1,0 +1,33 @@
+# Microsoft Developer Studio Generated Dependency File, included by drawwindow_src.mak
+
+.\DrawWindow.cpp : \
+	"..\..\..\..\program files (x86)\microsoft visual studio\vc98\include\basetsd.h"\
+	".\SkinWindow.h"\
+	".\stdafx.h"\
+	
+
+.\SkinWindow.cpp : \
+	"..\..\..\..\program files (x86)\microsoft visual studio\vc98\include\basetsd.h"\
+	".\SkinWindow.h"\
+	".\stdafx.h"\
+	
+
+.\stdafx.cpp : \
+	"..\..\..\..\program files (x86)\microsoft visual studio\vc98\include\basetsd.h"\
+	".\SkinWindow.h"\
+	".\stdafx.h"\
+	
+
+.\DrawWindow.rc : \
+	".\bottom.bmp"\
+	".\close.bmp"\
+	".\DrawWindow.ico"\
+	".\left.bmp"\
+	".\manifest.txt"\
+	".\max.bmp"\
+	".\min.bmp"\
+	".\restore.bmp"\
+	".\right.bmp"\
+	".\small.ico"\
+	".\top.bmp"\
+	

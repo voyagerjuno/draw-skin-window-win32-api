@@ -1,0 +1,27 @@
+# Ignore Visual Studio 6 specific files
+*.plg
+*.ncb
+*.opt
+
+# Ignore build outputs and intermediate files
+Debug/
+Release/
+*.obj
+*.exe
+*.dll
+*.lib
+*.pdb
+*.ilk
+*.res
+
+# Ignore user-specific files
+*.suo
+*.user
+
+# Ignore Makefile outputs
+*.o
+*.a
+
+# Ignore other files that should not be committed
+.DS_Store
+Thumbs.db

@@ -1,0 +1,25 @@
+# Set the default behavior, in case people don't have core.autocrlf set.
+* text=auto
+
+# Explicitly declare text files to prevent any ambiguity
+*.cpp text
+*.h text
+*.hpp text
+*.c text
+*.txt text
+*.md text
+Makefile text
+
+# Handle line endings automatically for files detected as text
+# and leave all files detected as binary untouched.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.bmp binary
+
+# Diff settings for specific file types
+*.sln diff=cpp
+*.vcxproj diff=cpp
+*.vcproj diff=cpp
