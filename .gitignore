@@ -2,10 +2,12 @@
 *.plg
 *.ncb
 *.opt
+*.aps
 
 # Ignore build outputs and intermediate files
 Debug/
 Release/
+draw_border-cppcheck-build-dir/
 *.obj
 *.exe
 *.dll
@@ -17,6 +19,9 @@ Release/
 # Ignore user-specific files
 *.suo
 *.user
+*.sleepy
+*.cppcheck
+REFERENCE.bmp
 
 # Ignore Makefile outputs
 *.o
